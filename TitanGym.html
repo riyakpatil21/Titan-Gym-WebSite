@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('material/pexels-victorfreitas-791763.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .left{
+        display: inline-block;
+        position: relative;
+        top: 45px;
+        left: 40px;
+        overflow: auto;
+        color: bisque;
+        text-align: center;
+    }
+    .left img{
+        width: 60px;
+        display: inline;
+    }
+    .left div{
+       
+    text-align: center;
+        
+    }
+    .logo{
+        color: white;
+        display: inline-block;
+        width: 6%;
+        position: relative;
+        top: 47px;
+        right: 28px;
+        text-align: center;
+        font-size: large;
+    }
+    .center{
+        display:inline-block;
+        width: 40%;
+        margin-bottom: 40%;
+        margin-left: 14%;
+        padding-left: 30px;
+        padding-right: 50px;
+        position: relative;
+        top: 10px;
+        font-weight: 200;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        top: 48px;
+        right: 50px;
+    }
+    .btn{
+        margin: 0px 8px;
+        padding: 5px 13px;
+        background-color: rgb(61, 61, 61);
+        color: white;
+        border: 2px solid  rgb(61, 61, 61);
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        
+    }
+    .btn:hover{
+        background-color: rgb(122, 122, 122);
+    }
+    .navbar {
+        display: inline-block;
+
+    }
+    .navbar li{
+        padding: 10px 15px;
+        display: inline-block;
+       
+    }
+    .navbar li a{
+       color: rgb(255, 255, 255);
+       font-size: large;
+       text-decoration: none;
+       font-family:cursive;
+       
+    }
+    .navbar li a:hover{
+        color: rgb(135, 135, 135);
+        
+    }
+    .navbar li a:active{
+        
+        color: grey;
+    }
+    .container{
+        color: white;
+        border: 2px solid rgb(136, 134, 134);
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        bottom: 500px;
+        left: 650px;
+        padding: 70px 50px;
+        padding-top: 40px;
+        border-radius: 10px;
+        
+    }
+    .form-group input{
+        color: white;
+        text-align: left;
+        display: block;
+        padding: 15px;
+        width: 90%;
+        background-color: rgb(54, 54, 54);
+        border-radius: 20px;
+        font-size: 18px;
+        margin: 10px auto;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .sub{
+        position: relative;
+        left: 20px;
+        top: 25px;
+        background-color: black;
+        color: white;
+        border: 2px solid rgb(116, 114, 114);;
+        border-radius: 5px;
+        width: 40%;
+        padding: 10px;
+        margin: auto;
+    }
+    .cancel{
+        position: relative;
+        left: 60px;
+        top: 25px;
+        background-color: black;
+        color: white;
+        border: 2px solid rgb(116, 114, 114);
+        border-radius: 5px;
+        width: 40%;
+        padding: 10px;
+        margin: auto;
+    }
+    .sub:hover{
+        color:black;
+        background-color: rgb(122, 122, 122);
+    }
+    .cancel:hover{
+        color:black;
+        background-color: rgb(122, 122, 122);
+    }
+</style>
+<body><header class="'header">
+    <div class="left">
+        <img src="download.jpeg" alt="logo">
+    </div>
+    <div class="logo">
+        Titan Gym
+    </div>
+    <div class="center">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Packages</a></li>
+        </ul>
+     </div>
+    <div class="right">
+        <button class="btn">Log in</button>
+        <button class="btn">Sign Up</button>
+    </div>
+   </header>
+   <div class="container">
+   <h1>Join and feel the Differnce</h1>
+   <form action="noaction.php">
+    <div class="form-group"> 
+        <input type="text" name="" placeholder="Name">
+    </div>
+    <div class="form-group"> 
+        <input type="text" name="" placeholder="Phone Number">
+    </div>
+    <div class="form-group"> 
+        <input type="text" name="" placeholder="Age">
+    </div>
+    <div class="form-group"> 
+        <input type="text" name="" placeholder="Weight">
+    </div>
+    <button class="sub">Submit</button>
+    <button class="cancel">Cancel</button>
+   </form>
+   
+   </div>
+    
+</body>
+</html>
